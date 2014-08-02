@@ -1,0 +1,81 @@
+MessageType: Logon
+8 BeginString FIX.4.2; 9 BodyLength 74; 35 MsgType A; 34 MsgSeqNum 1; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.397; 56 TargetCompID PELYNCH; 98 EncryptMethod 0; 108 HeartBtInt 30; 141 ResetSeqNumFlag Y; 10 CheckSum 015; 
+
+MessageType: Logon
+8 BeginString FIX.4.2; 9 BodyLength 74; 35 MsgType A; 34 MsgSeqNum 1; 49 SenderCompID PELYNCH; 52 SendingTime 20140729-14:47:23.729; 56 TargetCompID CLIENT; 98 EncryptMethod 0; 108 HeartBtInt 30; 141 ResetSeqNumFlag Y; 10 CheckSum 014; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 288; 35 MsgType D; 34 MsgSeqNum 2; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.696; 56 TargetCompID PELYNCH; 11 ClOrdID d66aa8ac-fe70-4c89-a823-e2a5b20bd501; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 111; 40 OrdType 2; 44 Price 5.2; 48 SecurityID FR0000121014; 54 Side 1; 55 Symbol FR0000121014_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.693; 100 ExDestination PA; 6171 Unknown description 0; 6350 Unknown description 1; 7400 Unknown description 20140729-07:00:00.661; 7401 Unknown description 20140729-15:30:00.680; 7803 Unknown description 0; 10 CheckSum 088; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 226; 35 MsgType D; 34 MsgSeqNum 3; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.698; 56 TargetCompID PELYNCH; 11 ClOrdID 98bda50f-19a1-4901-8ec8-f7e9dd84b3a6; 15 Currency DKK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 222; 40 OrdType 2; 44 Price 56; 48 SecurityID DK0010234467; 54 Side 1; 55 Symbol DK0010234467_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.696; 100 ExDestination CO; 6171 Unknown description 0; 7803 Unknown description 0; 10 CheckSum 114; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 256; 35 MsgType D; 34 MsgSeqNum 4; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.700; 56 TargetCompID PELYNCH; 11 ClOrdID bc1485f9-936b-45f0-84cc-ba61452b2704; 15 Currency SEK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 2000; 40 OrdType 1; 48 SecurityID GB0009895292; 54 Side 1; 55 Symbol GB0009895292_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.698; 100 ExDestination ST; 6064 Unknown description 20; 6171 Unknown description 0; 7400 Unknown description 20140729-07:30:00.698; 7803 Unknown description 1; 10 CheckSum 200; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 220; 35 MsgType D; 34 MsgSeqNum 5; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.702; 56 TargetCompID PELYNCH; 11 ClOrdID 519fca38-fc2e-4789-83ac-b0b2139533c9; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 111; 40 OrdType 1; 48 SecurityID FR0000121014; 54 Side 1; 55 Symbol FR0000121014_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.700; 100 ExDestination PA; 6171 Unknown description 0; 7803 Unknown description 0; 10 CheckSum 213; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 280; 35 MsgType D; 34 MsgSeqNum 6; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.704; 56 TargetCompID PELYNCH; 11 ClOrdID 3eb6c405-286e-48d5-a48a-08141be47144; 15 Currency DKK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 222; 40 OrdType 2; 44 Price 33; 48 SecurityID DK0010234467; 54 Side 1; 55 Symbol DK0010234467_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.702; 100 ExDestination CO; 6171 Unknown description 0; 7400 Unknown description 20140729-07:00:00.702; 7401 Unknown description 20140729-14:55:00.702; 7803 Unknown description 0; 10 CheckSum 240; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 235; 35 MsgType D; 34 MsgSeqNum 7; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.706; 56 TargetCompID PELYNCH; 11 ClOrdID 5218b0b3-c60b-4b89-ac3b-3e94f6f50731; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 1919; 40 OrdType 2; 44 Price 86; 48 SecurityID BE0003820371; 54 Side 2; 55 Symbol BE0003820371_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.704; 100 ExDestination BR; 6064 Unknown description 30; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 157; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 250; 35 MsgType D; 34 MsgSeqNum 8; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.708; 56 TargetCompID PELYNCH; 11 ClOrdID cbe803cb-5536-4cd8-acf7-3b15413d1da9; 15 Currency GBp; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 7550; 40 OrdType 2; 44 Price 3.6; 48 SecurityID GB0033711010; 54 Side 2; 55 Symbol GB0033711010_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.706; 100 ExDestination L; 6064 Unknown description 25; 6067 Unknown description 15; 6171 Unknown description 0; 6350 Unknown description 1; 7803 Unknown description 1; 10 CheckSum 196; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 270; 35 MsgType D; 34 MsgSeqNum 9; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.710; 56 TargetCompID PELYNCH; 11 ClOrdID ea195e68-d9bb-44b4-8660-e144eb78827e; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 300; 40 OrdType 2; 44 Price 495; 48 SecurityID BE0003678894; 54 Side 2; 55 Symbol BE0003678894_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.708; 100 ExDestination BR; 6064 Unknown description 35; 6067 Unknown description 30; 6171 Unknown description 0; 7400 Unknown description 20140729-07:01:00.708; 7803 Unknown description 1; 10 CheckSum 135; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 282; 35 MsgType D; 34 MsgSeqNum 10; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.712; 56 TargetCompID PELYNCH; 11 ClOrdID e7041270-a016-4542-8db5-76629beb201d; 15 Currency SEK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 4100; 40 OrdType 2; 44 Price 56; 48 SecurityID SE0000101032; 54 Side 1; 55 Symbol SE0000101032_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.710; 100 ExDestination ST; 6171 Unknown description 0; 7400 Unknown description 20140729-07:01:00.710; 7401 Unknown description 20140729-15:25:00.710; 7803 Unknown description 0; 10 CheckSum 025; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 291; 35 MsgType D; 34 MsgSeqNum 11; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.714; 56 TargetCompID PELYNCH; 11 ClOrdID 5c508fb0-8a30-4324-b5df-daaab58bc168; 15 Currency SEK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 10800; 40 OrdType 2; 44 Price 6.3; 48 SecurityID SE0000202624; 54 Side 1; 55 Symbol SE0000202624_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.712; 100 ExDestination ST; 6171 Unknown description 0; 6350 Unknown description 1; 7400 Unknown description 20140729-07:01:00.712; 7401 Unknown description 20140729-15:25:00.712; 7803 Unknown description 0; 10 CheckSum 240; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 277; 35 MsgType D; 34 MsgSeqNum 12; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.716; 56 TargetCompID PELYNCH; 11 ClOrdID 73bcb8d7-d954-4d72-9bb3-864d99b821f9; 15 Currency SEK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 11200; 40 OrdType 1; 48 SecurityID SE0000221723; 54 Side 1; 55 Symbol SE0000221723_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.715; 100 ExDestination ST; 6171 Unknown description 0; 7400 Unknown description 20140729-07:01:00.714; 7401 Unknown description 20140729-15:25:00.714; 7803 Unknown description 0; 10 CheckSum 030; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 240; 35 MsgType D; 34 MsgSeqNum 13; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.718; 56 TargetCompID PELYNCH; 11 ClOrdID 68d4e629-9102-4577-b195-cdb1f09595d2; 15 Currency NOK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 22520; 40 OrdType 2; 44 Price 89.15; 48 SecurityID BMG1190N1002; 54 Side 2; 55 Symbol BMG1190N1002_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.717; 100 ExDestination OL; 6064 Unknown description 11; 6171 Unknown description 0; 7803 Unknown description 0; 10 CheckSum 123; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 275; 35 MsgType D; 34 MsgSeqNum 14; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.720; 56 TargetCompID PELYNCH; 11 ClOrdID fa1c61be-d2b9-4cb6-a055-0938fa49752b; 15 Currency NOK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 90000; 40 OrdType 2; 44 Price 89.15; 48 SecurityID NO0010208051; 54 Side 1; 55 Symbol NO0010208051_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.719; 100 ExDestination OL; 6064 Unknown description 30; 6067 Unknown description 25; 6171 Unknown description 0; 7400 Unknown description 20140729-06:54:31.718; 7803 Unknown description 1; 10 CheckSum 204; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 239; 35 MsgType D; 34 MsgSeqNum 15; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.722; 56 TargetCompID PELYNCH; 11 ClOrdID dbebc5ef-5628-4a4a-997a-164cb8d0c2c2; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 15000; 40 OrdType 1; 48 SecurityID NL0009103530; 54 Side 1; 55 Symbol NL0009103530_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.721; 100 ExDestination AS; 6064 Unknown description 25; 6067 Unknown description 15; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 058; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 285; 35 MsgType D; 34 MsgSeqNum 16; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.724; 56 TargetCompID PELYNCH; 11 ClOrdID cc479aac-6321-4e02-87e5-a2c7c5a7dbca; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 8500; 40 OrdType 2; 44 Price 144.1; 48 SecurityID FI0009007835; 54 Side 2; 55 Symbol FI0009007835_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.723; 100 ExDestination HE; 6171 Unknown description 0; 7400 Unknown description 20140729-07:02:00.722; 7401 Unknown description 20140729-07:15:00.723; 7803 Unknown description 4; 10 CheckSum 046; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 286; 35 MsgType D; 34 MsgSeqNum 17; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.726; 56 TargetCompID PELYNCH; 11 ClOrdID 86349e16-78da-48f3-abe5-b01b6e1f2ffd; 15 Currency NOK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 79800; 40 OrdType 2; 44 Price 22.74; 48 SecurityID NO0010379266; 54 Side 2; 55 Symbol NO0010379266_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.725; 100 ExDestination OL; 6171 Unknown description 0; 7400 Unknown description 20140729-07:02:23.725; 7401 Unknown description 20140729-15:30:00.725; 7803 Unknown description 0; 10 CheckSum 131; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 223; 35 MsgType D; 34 MsgSeqNum 18; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.728; 56 TargetCompID PELYNCH; 11 ClOrdID 9d35d274-9337-4486-906b-8a34537e748b; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 15000; 40 OrdType 1; 48 SecurityID NL0000335578; 54 Side 1; 55 Symbol NL0000335578_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.727; 100 ExDestination AS; 6171 Unknown description 0; 7803 Unknown description 0; 10 CheckSum 214; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 239; 35 MsgType D; 34 MsgSeqNum 19; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.730; 56 TargetCompID PELYNCH; 11 ClOrdID a8d7d3d7-87e1-4e8a-ae22-9e8901b147de; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 22609; 40 OrdType 1; 48 SecurityID BE0003884047; 54 Side 2; 55 Symbol BE0003884047_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.729; 100 ExDestination BR; 6064 Unknown description 16; 6067 Unknown description 14; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 245; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 273; 35 MsgType D; 34 MsgSeqNum 20; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.732; 56 TargetCompID PELYNCH; 11 ClOrdID eaffade8-b725-436d-a102-39f5dc0d255c; 15 Currency NOK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 77000; 40 OrdType 2; 44 Price 1.8; 48 SecurityID NO0003054108; 54 Side 1; 55 Symbol NO0003054108_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.731; 100 ExDestination OL; 6064 Unknown description 36; 6067 Unknown description 28; 6171 Unknown description 0; 7400 Unknown description 20140729-07:03:58.731; 7803 Unknown description 1; 10 CheckSum 201; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 238; 35 MsgType D; 34 MsgSeqNum 21; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.734; 56 TargetCompID PELYNCH; 11 ClOrdID 2e353071-8af9-464b-9f85-98e8f4109e4c; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 6000; 40 OrdType 1; 48 SecurityID BE0003793107; 54 Side 2; 55 Symbol BE0003793107_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.733; 100 ExDestination BR; 6064 Unknown description 35; 6067 Unknown description 30; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 244; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 238; 35 MsgType D; 34 MsgSeqNum 22; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.736; 56 TargetCompID PELYNCH; 11 ClOrdID 6b7596cc-2346-4b4c-9dd4-b7e2e3adb4d1; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 5000; 40 OrdType 1; 48 SecurityID NL0000009132; 54 Side 2; 55 Symbol NL0000009132_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.735; 100 ExDestination AS; 6064 Unknown description 27; 6067 Unknown description 23; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 217; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 238; 35 MsgType D; 34 MsgSeqNum 23; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.738; 56 TargetCompID PELYNCH; 11 ClOrdID caeee1aa-3905-4e37-a900-6c6cd666f79b; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 5000; 40 OrdType 1; 48 SecurityID BE0003793107; 54 Side 2; 55 Symbol BE0003793107_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.737; 100 ExDestination BR; 6064 Unknown description 35; 6067 Unknown description 30; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 213; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 239; 35 MsgType D; 34 MsgSeqNum 24; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.740; 56 TargetCompID PELYNCH; 11 ClOrdID d472ac8f-1b90-47d0-9098-1406d815d6a3; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 21000; 40 OrdType 1; 48 SecurityID NL0000379121; 54 Side 2; 55 Symbol NL0000379121_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.739; 100 ExDestination AS; 6064 Unknown description 26; 6067 Unknown description 23; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 041; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 283; 35 MsgType D; 34 MsgSeqNum 25; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.742; 56 TargetCompID PELYNCH; 11 ClOrdID 87d2486d-0b25-4015-9575-af89efef2095; 15 Currency NOK; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 4700; 40 OrdType 1; 48 SecurityID NO0010063308; 54 Side 2; 55 Symbol NO0010063308_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.740; 100 ExDestination OL; 6171 Unknown description 0; 6350 Unknown description 1; 7400 Unknown description 20140729-07:24:02.740; 7401 Unknown description 20140729-09:30:00.740; 7803 Unknown description 0; 10 CheckSum 215; 
+
+MessageType: NewOrderSingle
+8 BeginString FIX.4.2; 9 BodyLength 239; 35 MsgType D; 34 MsgSeqNum 26; 49 SenderCompID CLIENT; 52 SendingTime 20140729-14:47:23.744; 56 TargetCompID PELYNCH; 11 ClOrdID c18596a2-6bb1-4405-9cba-cc64703f3a31; 15 Currency EUR; 21 HandlInst 1; 22 IDSource 4; 38 OrderQty 19069; 40 OrdType 1; 48 SecurityID DE0006070006; 54 Side 2; 55 Symbol DE0006070006_symbol; 59 TimeInForce 0; 60 TransactTime 20140729-14:47:23.742; 100 ExDestination DE; 6064 Unknown description 27; 6067 Unknown description 23; 6171 Unknown description 0; 7803 Unknown description 1; 10 CheckSum 090; 
+
